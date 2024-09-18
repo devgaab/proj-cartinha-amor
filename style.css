@@ -19,7 +19,7 @@ body {
     justify-content: center;
 
     height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .container {
@@ -39,8 +39,8 @@ body {
 
 .envelope-wrapper>.envelope {
     position: relative;
-    width: 300px;
-    height: 230px;
+    width: 400px;
+    height: 300px;
 }
 
 .envelope-wrapper>.envelope::before {
@@ -48,9 +48,9 @@ body {
     position: absolute;
     top: 0;
     z-index: 2;
-    border-top: 130px solid var(--envelope-tab);
-    border-right: 150px solid transparent;
-    border-left: 150px solid transparent;
+    border-top: 160px solid var(--envelope-tab);
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
     transform-origin: top;
     transition: all 0.5s ease-in-out 0.7s;
 }
@@ -61,10 +61,10 @@ body {
     z-index: 2;
     width: 0px;
     height: 0px;
-    border-top: 130px solid transparent;
-    border-right: 150px solid var(--envelope-cover);
-    border-bottom: 100px solid var(--envelope-cover);
-    border-left: 150px solid var(--envelope-cover);
+    border-top: 160px solid transparent;
+    border-right: 200px solid var(--envelope-cover);
+    border-bottom: 180px solid var(--envelope-cover);
+    border-left: 200px solid var(--envelope-cover);
 }
 
 .envelope>.letter {
