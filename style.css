@@ -1,23 +1,19 @@
 :root {
     --primary: #fff;
-    --bg-color: rgb(5, 53, 61);
+    --bg-color: #8cb474;
     --bg-envelope-color: #f5edd1;
     --envelope-tab: #FCCE9A;
     --envelope-cover: #F9B97B;
     --shadow-color: rgba(0, 0, 0, 0.4);
     --txt-color: #444;
-    --heart-color: rgb(252, 8, 231);
-}
-
-* {
-    
+    --heart-color: #ff2400;
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #8cb474;
+    background: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +93,7 @@ body {
     left: 50%;
     width: 15px;
     height: 15px;
-    background: #ff2400;
+    background: var(--heart-color);
     z-index: 4;
     transform: translate(-50%, -20%) rotate(45deg);
     transition: transform 0.5s ease-in-out 1s;
@@ -111,7 +107,7 @@ body {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: #ff2400;
+    background-color: var(--heart-color);
     border-radius: 50%;
 }
 
@@ -144,13 +140,13 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-    background: #fff;
+    background: var(--primary);
     border-bottom-right-radius: 10px;
     margin: 4px;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #ff2400;
+    background-color: var(--heart-color);
     border-radius: 10px;
-    border: 3px solid #fff;
+    border: 3px solid var(--primary);
 }
