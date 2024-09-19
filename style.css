@@ -30,10 +30,6 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .container>.envelope-wrapper {
@@ -67,7 +63,7 @@ body {
     height: 0px;
     border-top: 160px solid transparent;
     border-right: 200px solid var(--envelope-cover);
-    border-bottom: 180px solid var(--envelope-cover);
+    border-bottom: 140px solid var(--envelope-cover);
     border-left: 200px solid var(--envelope-cover);
 }
 
@@ -91,7 +87,7 @@ body {
     text-align: left;
     font-size: 10px;
     overflow-y: scroll;
-    height: 100px;
+    height: 114px;
     line-height: 17px;
 }
 
